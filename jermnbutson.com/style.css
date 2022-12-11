@@ -1,0 +1,263 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Alatsi', sans-serif;
+}
+html {
+    background-color: black;
+}
+
+/*---Header---*/
+.header {
+    color: antiquewhite;
+    font-size: 32px;
+    text-align: center;
+    padding: 18px;
+    margin: auto;
+    background-color: #264653;
+    z-index: +1;
+}
+
+
+/*---DiagramHomePage---*/
+.background {
+    position: relative;
+    margin: 0 auto;
+}
+.diagram1 {
+    position: relative;
+    width: 45%;
+    height: 70px;
+    background: #f4a261;
+    top: 280px;
+    transform: rotate(-45deg);
+    right: -20%;
+    z-index: -1;
+}
+.diagram1About {
+    position: relative;
+    width: 75%;
+    height: 70px;
+    background: #f4a261;
+    top: 280px;
+    transform: rotate(-45deg);
+    right: 50%;
+    z-index: -1;
+}
+.diagram2 {
+    position: relative;
+    width:auto;
+    height: 70px;
+    background: #f4a261;
+    top: 630px;
+}
+
+/*--- social links---*/
+.fa {    
+    text-align: center;
+    text-decoration: none; 
+    font-size: 100px;  
+    width: 50px;
+    height: 50px;  
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    border-radius: 20%;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    background: url(fa-twitter) no-repeat center center;
+} 
+.fa-twitter {  
+    background: #f4a261;  
+    color: antiquewhite;
+}  
+
+/*---software link---*/
+.stationCircle1 {
+    background-color: antiquewhite;
+    border: 20px solid #f4a261;    
+    height: 70px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 70px;
+    position: relative;
+    transition: 0.3s;
+    top: 540px;
+    right: 30%;
+}
+.link1 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 28px;
+    text-align: center;
+    padding: 18px;
+    margin: auto;
+    position: relative;
+    top: 0%;
+    right: 82%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircle1:hover .link1 {
+    transform: translateY(-110%);
+    opacity: 1;
+    display: block;
+}
+.stationCircle1:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+/*---contact link---*/
+.stationCircle2 {
+    background-color: antiquewhite;
+    border: 20px solid #f4a261;    
+    height: 70px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 70px;
+    position: relative;
+    transition: 0.3s;
+    top: 430px;
+    right: -30%;
+}
+.link2 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircle2:hover .link2 {
+    transform: translateY(-170%);
+    opacity: 1;
+}
+.stationCircle2:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+/*---design link---*/
+.stationRectangle {
+    width: 70px;
+    height: 110px;
+    border: 20px solid #f4a261;
+    background-color: antiquewhite;
+    position: relative;
+    transition: 0.3s;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius: 15px;
+    top: 300px;
+    right: 0%;
+}
+.link3 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationRectangle:hover .link3 {
+    transform: translateY(-280%);
+    opacity: 1;
+    text-decoration: none;
+}
+.stationRectangle:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+/*---about link---*/
+.stationCircle3 {
+    background-color: antiquewhite;
+    border: 20px solid #f4a261;    
+    height: 70px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 70px;
+    position: relative;
+    transition: 0.3s;
+    top: -439px;
+    right: -30%;
+    text-decoration: none;
+}
+.link3 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircle3:hover .link3 {
+    transform: translateX(-180%);
+    opacity: 1;
+    text-decoration: none;
+}
+.stationCircle3:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*---ABOUT PAGE---*/
+.stationCircleUnclickableAbout {
+    background-color: antiquewhite;
+    border: 20px solid #f4a261;    
+    height: 70px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 70px;
+    right: 40%;
+    position: relative;
+}
+.row{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    max-height: 0.6vh;
+    width: 50%;
+    padding: 0px 1%;
+    float: left;
+}
+.pictureMe {
+    display: block;
+    max-width: 100%;
+    z-index: -2;
+}
+.aboutText {
+    display: block;
+    max-width: 100%;
+    color: antiquewhite;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
